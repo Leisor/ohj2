@@ -1,0 +1,1 @@
+# Olio-ohjelmoinnin ominaisuuksia

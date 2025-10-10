@@ -1,0 +1,1 @@
+# Luvut ja teksti bitteinä
