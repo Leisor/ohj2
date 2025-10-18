@@ -237,6 +237,10 @@
                             </a>
                         {{/previous}}
 
+                        <div>
+                            <p><a href="{{git_repository_edit_url}}" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">Ehdota muutosta materiaaliin.</a></p>
+                        </div>
+
                         {{#next}}
                             <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters next" title="Next: {{ title }}" aria-label="Next: {{ title }}" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
@@ -244,7 +248,7 @@
                             </a>
                         {{/next}}
 
-                        <div style="clear: both"></div>
+                        <!-- div style="clear: both"></div-->
                     </nav>
                 </div>
             </div>
@@ -264,6 +268,9 @@
                     </a>
                 {{/next}}
             </nav>
+
+            
+
 
         </div>
 

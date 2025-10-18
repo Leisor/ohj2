@@ -20,6 +20,9 @@ additional-js = [
   "theme/playground_ext.js",
 ]
 
+# Repository links for the HTML theme: shows repo icon and "Suggest an edit" button
+edit-url-template = "https://github.com/ohj-perus-jy/ohj2/edit/main/{path}"
+
 [output.html.playground]
 editable = true
 
@@ -29,3 +32,4 @@ java = "//-"
 [preprocessor.alerts]
 
 [preprocessor.mermaid]
+
